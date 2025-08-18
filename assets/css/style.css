@@ -188,16 +188,16 @@ img, svg, picture {
    margin: auto;
 }
 
-.container .flexbox {
+.container.flexbox {
    display: flex; flex-direction: row; flex-wrap: wrap;
-   justify-content: center; align-items: center;
+   justify-content: center; align-items: flex-start;
 }
 
 .inner {
    display: flex;
    flex: 1 1 20rem;
    flex-direction: column;
-   max-width: 35rem;
+   max-width: 50rem;
    align-items: baseline;
    row-gap: .8rem;
    margin: 2rem;
@@ -360,6 +360,52 @@ img, svg, picture {
    margin-left: 1.5rem;
 }
 
+/* == Banner ==================== */
+
+.banner {
+   padding-bottom: 200px;
+}
+
+.usp-box {
+   position: relative;
+   min-width: 100px;
+   z-index: 1;
+}
+
+.banner-first-img {
+   position: relative;
+   max-width: 310px; height: 425px;
+   margin-right: 1.5rem;
+   align-self: flex-start;
+   overflow: hidden;
+   border-radius: 0.25rem;
+   border: solid 2px var(--color-secondary);
+   z-index: 1;
+}
+
+.banner-second-img {
+   position: absolute;
+   top: 70%; left: 20%;
+   height: 225px; width: 100%; max-width: 950px;
+   margin-right: 1.5rem;
+   align-self: flex-start;
+   overflow: hidden;
+   border-radius: 0.25rem;
+   border: solid 2px var(--color-secondary);
+}
+
+.banner-first-img:after, .banner-second-img:after {
+   content: '';
+   position: absolute;
+   left: 0; top: 0;
+   width: 100%; height: 100%;
+   background-color: rgba(var(--color-dark-raw), 0.4);
+}
+
+.banner-first-img img, .banner-second-img img {
+   width: 100%;
+}
+
 
 /* ================================== */
 /* == Links and buttons ============= */
@@ -378,6 +424,11 @@ img, svg, picture {
    transition: all 0.2s ease-in-out;
 }
 
+.spacial-horizontal-wrapper .btn {
+   align-self: center; 
+   height: auto;           
+}
+
 .btn.btn-primary {
    border: solid 3px var(--color-primary);
    background-color: var(--color-primary);
@@ -388,19 +439,21 @@ img, svg, picture {
    background-color: transparent;
 }
 
+.btn.btn-secondary {
+   border: solid 3px var(--color-secondary);
+   background-color: var(--color-secondary);
+   color: var(--color-light);
+}
+
+.btn.btn-secondary:hover {
+   background-color: transparent;
+}
+
 
 /* ================================== */
 /* == Fonts & utilities ============= */
 /* ================================== */
 
-
-.primary-font {
-   font-family: var(--font-primary);
-}
-
-.secondary-font {
-   font-family: var(--font-secondary);
-}
 
 .title-small {
    font-family: inherit;
@@ -477,8 +530,46 @@ img, svg, picture {
    font-weight: 100;
 }
 
+.primary-font {
+   font-family: var(--font-primary);
+}
+
+.secondary-font {
+   font-family: var(--font-secondary);
+}
+
 .text-center {
    text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.text-left {
+   text-align: left;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.text-right {
+   text-align: right;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+
+.primary-color {
+   color: var(--color-primary);
+}
+
+.secondary-color {
+   color: var(--color-secondary);
+}
+
+.primary-background {
+   background: var(--color-primary);
+}
+
+.secondary-background {
+   background: var(--color-secondary);
 }
 
 .vertical-wrapper {
@@ -486,19 +577,42 @@ img, svg, picture {
    row-gap: 0.5rem;
 }
 
-.mt-top-25 {
+.horizontal-wrapper {
+   display: flex; flex-direction: row;
+   column-gap: 0.5rem;
+}
+
+.spacial-vertical-wrapper {
+   display: flex; flex-direction: column;
+   row-gap: 3rem;
+}
+
+.spacial-horizontal-wrapper {
+   display: flex; flex-direction: row;
+   column-gap: 3rem;
+}
+
+.mt-0 {
+   margin-top: 0;
+}
+
+.mt-10 {
+   margin-top: 10px;
+}
+
+.mt-25 {
    margin-top: 25px;
 }
 
-.mt-top-50 {
+.mt-50 {
    margin-top: 50px;
 }
 
-.mt-top-75 {
+.mt-75 {
    margin-top: 75px;
 }
 
-.mt-top-100 {
+.mt-100 {
    margin-top: 100px;
 }
 

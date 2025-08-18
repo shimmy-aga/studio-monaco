@@ -1,0 +1,471 @@
+/* ================================== *//* ================================== */
+/*            STYLES.CSS              *//* ================================== */
+/*                                    *//* ================================== */
+/* ================================== *//* ================================== */
+
+
+
+/* ================================== */
+/* == Root variables ================ */
+/* ================================== */
+
+
+/* Include fonts */
+@font-face {
+  font-family: 'Lora';
+  src: url('/assets/fonts/lora-variable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/quicksand-variable.ttf') format('truetype');
+}
+
+
+:root {
+   /* Theme colors */
+   --color-primary: #e4137d;
+   --color-secondary: #c18efe;
+   --color-dark: #0d0b0c;
+   --color-light: #ececec;
+
+   /* Raw theme colors */
+   --color-primary-raw: 228, 19, 125;
+   --color-secondary-raw: 193, 142, 254;
+   --color-dark-raw: 13, 11, 12;
+   --color-light-raw: 236, 236, 236;
+
+   /* Fonts */
+   --font-primary: 'Lora';
+   --font-secondary: 'Quicksand';
+}
+
+
+/* ================================== */
+/* == Default styling =============== */
+/* ================================== */
+
+
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+html {
+   font-size: 100%;
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+body {
+   font-family: var(--font-primary);
+   font-size: clamp(1rem, 2vw, 1.125rem);
+   font-weight: 400;
+   line-height: 1.5;
+   color: var(--color-light);
+   background-color: var(--color-dark);
+}
+
+main, section {
+   overflow: hidden;
+}
+
+a, button {
+   cursor: pointer;
+   user-select: none;
+   white-space: nowrap;
+   border: none;
+   outline: none;
+   color: inherit;
+   background: unset;
+   transition: all 0.3s ease;
+}
+
+h1, h2, h3, h4, h5 {
+   font-family: inherit;
+   line-height: 1.25;
+   text-wrap: balance;
+   word-wrap: break-word;
+}
+
+p, li {
+   font-family: inherit;
+   line-height: 1.5;
+   text-wrap: pretty;
+   word-wrap: break-word;
+}
+
+img, svg, picture {
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+   object-fit: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+/* ================================== */
+/* == Navbar and hero =============== */
+/* ================================== */
+
+
+/* == Navbar ======================== */
+
+.nav {
+   position: fixed;
+   top: 0; left: 0;
+   width: 100%; 
+   z-index: 999;
+   margin: 0 auto;
+   font-family: var(--font-secondary);
+   font-weight: 500;
+}
+
+.nav .container {
+   position: relative;
+   display: flex; flex-direction: row;
+   align-items: center; justify-content: baseline;
+   width: 100%; max-width: 1200px;
+   margin: auto;
+   padding: 0 1rem;
+}
+
+.nav .logo {
+   position: relative;
+   display: inline-block;
+   width: 100px;
+   margin-right: auto;
+}
+
+.nav .navbar {
+   position: relative;
+   display: inline-block;
+   display: flex; flex-direction: row;
+   column-gap: 1.5rem;
+}
+
+.nav .btn {
+   position: relative;
+   display: inline-block;
+   margin-left: auto;
+}
+
+/* == Hero ========================== */
+
+.section.hero {
+   padding-top: 175px;
+}
+
+
+/* ================================== */
+/* == Layout and sections =========== */
+/* ================================== */
+
+
+.section {
+   position: relative;
+   width: 100%;
+   padding: 100px 0;
+}
+
+.section .container {
+   position: relative;
+   width: 100%; max-width: 1200px;
+   margin: auto;
+}
+
+.container .flexbox {
+   display: flex; flex-direction: row; flex-wrap: wrap;
+   justify-content: center; align-items: center;
+}
+
+.inner {
+   display: flex;
+   flex: 1 1 20rem;
+   flex-direction: column;
+   max-width: 35rem;
+   align-items: baseline;
+   row-gap: .8rem;
+   margin: 2rem;
+   z-index: 1;
+}
+
+.cards-wrapper {
+   position: relative;
+   text-align: center;
+   margin-top: 70px;
+   padding: 1.5rem;
+}
+
+.card {
+   position: relative;
+   display: inline-block;
+   width: 275px; height: 375px;
+   margin: 0.25rem;
+   border-radius: 0.5rem;
+   z-index: 1;
+   transition: all 0.25s ease;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+.card:after {
+   content: '';
+   position: absolute;
+   left: 0; top: 0;
+   width: 100%; height: 100%;
+   background-color: rgba(var(--color-dark-raw), 0.15);
+}
+
+.card .info {
+   position: absolute;
+   display: flex; flex-direction: column;
+   row-gap: 0.75rem;
+   bottom: 1rem; left: 50%;
+   transform: translateX(-50%);
+
+   text-align: left;
+   width: 85%; 
+   padding: 0.75rem 1.25rem;
+   border-radius: 0.5rem;
+   background-color: #24201fCC;
+}
+
+.card .checker {
+   position: absolute;
+   top: 1rem; right: 7.5%;
+
+   text-align: right;
+   padding: 0.5rem 0.8rem;
+   border-radius: 0.5rem;
+   background-color: #24201fCC;
+}
+
+.card .checker i, .card .info i {
+   margin-right: 0.5rem;
+}
+
+.card .checker.online i {
+   color: #78C841;
+}
+
+.card .checker.offline i {
+   color: #E43636;
+}
+
+.card .checker.sleep i {
+   color: #FF9B2F;
+}
+
+.card img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+
+.card.card-glass {
+   border: 0.2rem solid rgba(0, 0, 0, 0.1);
+   background-color: rgba(73, 73, 73, 0.1);
+   backdrop-filter: blur(10px);
+}
+
+.card:hover {
+   transform: translateY(-12.5px);
+}
+
+
+/* ================================== */
+/* == Links and buttons ============= */
+/* ================================== */
+
+
+.btn {
+   position: relative; display: inline-flex;
+   font-size: clamp(0.9rem, 3.5vw, 1.15rem); 
+   font-weight: 700;
+   white-space: nowrap; text-wrap: nowrap; 
+   text-align: center; align-items: center; vertical-align: middle; 
+   justify-content: center; 
+   padding: 0.5rem 2.2rem;
+   border-radius: 0.2rem;
+   transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-primary {
+   border: solid 3px var(--color-primary);
+   background-color: var(--color-primary);
+   color: var(--color-light);
+}
+
+.btn.btn-primary:hover {
+   background-color: transparent;
+}
+
+
+/* ================================== */
+/* == Fonts & utilities ============= */
+/* ================================== */
+
+
+.title-small {
+   font-family: inherit;
+   font-size: clamp(1.75rem, 4vw, 2.35rem);
+   font-weight: 600;
+   line-height: 1.25;
+}
+
+.title-medium {
+   font-family: inherit;
+   font-size: clamp(2.15rem, 5vw, 3.15rem);
+   font-weight: 600;
+   line-height: 1.15;
+}
+
+.title-big {
+   font-family: inherit;
+   font-size: clamp(2.2rem, 5.5vw, 4rem);
+   font-weight: 600;
+   line-height: 1.15;
+}
+
+.text-small {
+   font-family: inherit;
+   font-size: 0.85rem;
+   line-height: 1.25;
+}
+
+.text-medium {
+   font-family: inherit;
+   font-size: 1.15rem;
+   line-height: 1.5;
+}
+
+.text-big {
+   font-family: inherit;
+   font-size: 1.3rem;
+   line-height: 1.5;
+}
+
+.primary-font {
+   font-family: var(--font-primary);
+}
+
+.secondary-font {
+   font-family: var(--font-secondary);
+}
+
+.emoji {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",
+               "Noto Color Emoji", "EmojiOne Color", sans-serif;
+  font-size: 1em; line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: baseline;
+   column-gap: 1.25rem;
+   width: 100%;
+   height: 4rem;
+   margin-inline: auto;
+}
+
+.navbar.container {
+   padding: 1rem;
+   max-width: 110rem;
+}
+
+.logo {
+   font-family: inherit;
+   font-size: 1.5rem;
+   font-weight: 600;
+   line-height: 1.5;
+   text-transform: uppercase;
+   color: inherit;
+   transition: all 0.15s ease;
+   margin-right: auto;
+}
+
+
+.burger {
+   cursor: pointer;
+   position: relative;
+   display: block;
+   order: 1;
+   z-index: 10;
+   width: 1.5rem;
+   height: 1rem;
+   user-select: none;
+   visibility: visible;
+}
+
+@media screen and (min-width: 70rem) {
+   .burger {
+      display: none;
+      visibility: hidden;
+	}
+}
+
+.burger-line {
+   position: absolute;
+   display: block;
+   left: 0;
+   opacity: 1;
+   width: 100%;
+   height: 2px;
+   background-color: currentColor;
+   transition: all 0.25s ease;
+}
+
+.burger-line:nth-child(1) {
+   top: 0px;
+}
+
+.burger-line:nth-child(2) {
+   top: 0.5rem;
+   width: 70%;
+}
+
+.burger-line:nth-child(3) {
+   top: 1rem;
+}
+
+.burger.is-active .burger-line:nth-child(1) {
+   top: 0.5rem;
+   transform: rotate(135deg);
+}
+
+.burger.is-active .burger-line:nth-child(2) {
+   left: -1rem;
+   opacity: 0;
+}
+
+.burger.is-active .burger-line:nth-child(3) {
+   top: 0.5rem;
+   transform: rotate(-135deg);
+} */

@@ -23,7 +23,7 @@ if (burgerMenu && navbarMenu) {
 
 // Close Navbar Menu on Click Menu Links /////////////
 //////////////////////////////////////////////////////
-document.querySelectorAll(".nav-link").forEach((link) => {
+document.querySelectorAll(".navbar-link").forEach((link) => {
    link.addEventListener("click", () => {
       burgerMenu.classList.remove("is-active");
       navbarMenu.classList.remove("is-active");

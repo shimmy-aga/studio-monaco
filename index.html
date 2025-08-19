@@ -10,9 +10,18 @@
 
     <!-- Standard SEO -->
     <title> Studio Monaco </title>
+    <meta name="description" content="Welkom bij Studio Monaco">
 
-    <!-- CDNS -->
-    <script src="https://kit.fontawesome.com/1e28254ed2.js" crossorigin="anonymous"></script>
+    <!-- CDN'S -->
+    <script rel="preconnect" src="https://kit.fontawesome.com/1e28254ed2.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/media/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/media/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Studio Monaco" />
+    <link rel="manifest" href="assets/media/favicon/site.webmanifest" />
 
     <!-- Custom CSS and JS -->
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -31,10 +40,27 @@
         <div class="container">
         
             <div class="logo">
-                <img src="assets/media/logo.png" alt="logo">
+                <img decoding="async" loading="lazy" src="assets/media/logo.png" alt="logo">
             </div>
 
-            <div class="navbar">
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+
+            <div id="menu" class="menu">
+                <div class="menu-inner">
+                    <a href="" class="menu-link">Home</a><div class="menu-seperation"></div>
+                    <a href="" class="menu-link">Over ons</a><div class="menu-seperation"></div>
+                    <a href="" class="menu-link">Dames</a><div class="menu-seperation"></div>
+                    <a href="" class="menu-link">Agenda</a><div class="menu-seperation"></div>
+                    <a href="" class="menu-link">Tarieven</a><div class="menu-seperation"></div>
+                    <a href="" class="menu-link">Contact</a><div class="menu-seperation"></div>
+                </div>
+            </div>
+
+            <div id="navbar" class="navbar">
                 <a href="" class="navbar-link">Home</a>
                 <a href="" class="navbar-link">Over ons</a>
                 <a href="" class="navbar-link">Dames</a>
@@ -43,7 +69,7 @@
                 <a href="" class="navbar-link">Contact</a>
             </div>
 
-            <a href="" class="btn btn-primary">Boek nu</a>
+            <a href="" class="btn btn-primary hide-below-1000">Boek nu</a>
 
         </div>
     </nav>
@@ -67,7 +93,7 @@
                 
                 <div class="card slim">
 
-                    <img src="assets/media/alysia.jpg" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/alysia.jpg" alt="">
                     <div class="info">
                         <p class="text-medium">Alysia</p>
                         <p class="text-small secondary-font"><i class="fa-regular fa-clock"></i>11:00-15:00</p>
@@ -80,7 +106,7 @@
 
                 <div class="card slim">
                     
-                    <img src="assets/media/anita.jpg" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/anita.jpg" alt="">
                     <div class="info">
                         <p class="text-medium">Anita</p>
                         <p class="text-small secondary-font"><i class="fa-regular fa-clock"></i>11:00-15:00</p>
@@ -89,11 +115,11 @@
                         <p  class="text-small secondary-font"><i class="fa-solid fa-circle"></i>Beschikbaar</p>
                     </div>
 
-                </div>
+                </div> 
 
                 <div class="card slim">
 
-                    <img src="assets/media/celli.jpg" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/celli.jpg" alt="">
                     <div class="info">
                         <p class="text-medium">Celli</p>
                         <p class="text-small secondary-font"><i class="fa-regular fa-clock"></i>Morgen</p>
@@ -106,7 +132,7 @@
 
                 <div class="card slim">
 
-                    <img src="assets/media/mandy.jpg" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/mandy.jpg" alt="">
                     <div class="info">
                         <p class="text-medium">Mandy</p>
                         <p class="text-small secondary-font"><i class="fa-regular fa-clock"></i>15:00-19:00</p>
@@ -135,7 +161,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-1.jpg" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-1.jpg" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Girlfriend Fantasy</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -145,7 +171,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-2.jpg" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-2.jpg" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">BDSM-ervaring</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -155,7 +181,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-3.jpg" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-3.jpg" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Rollenspel</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -165,7 +191,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-4.jpg" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-4.jpg" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Sensory Play</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -175,7 +201,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-5.webp" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-5.webp" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Erotische Massage</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -185,7 +211,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-6.avif" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-6.avif" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Kinky Workshops</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -195,7 +221,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-7.webp" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-7.webp" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Groepservaringen</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -205,7 +231,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-8.jpg" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-8.jpg" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Striptease Show</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -215,7 +241,7 @@
 
                 <div class="highlight">
                     
-                    <div class="tiny-img-mask"><img src="assets/media/placeholder-9.jpg" alt=""></div>
+                    <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-9.jpg" alt=""></div>
                     <div class="vertical-wrapper">
                         <h1 class="text-big font-weight-600">Fantasy Rooms</h1>
                         <p class="text-small secondary-font">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -249,19 +275,19 @@
                 
                 <div class="static-card wide">
 
-                    <img src="assets/media/placeholder-5.webp" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/placeholder-5.webp" alt="">
 
                 </div>
 
                 <div class="static-card wide">
                     
-                    <img src="assets/media/placeholder-6.avif" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/placeholder-6.avif" alt="">
 
                 </div>
 
                 <div class="static-card wide">
 
-                    <img src="assets/media/placeholder-7.webp" alt="">
+                    <img decoding="async" loading="lazy" src="assets/media/placeholder-7.webp" alt="">
 
                 </div>
 
@@ -280,16 +306,16 @@
         <div class="container flexbox">
             
             <div class="banner-first-img">
-                <img src="assets/media/placeholder-9.jpg" alt="">
+                <img decoding="async" loading="lazy" src="assets/media/placeholder-9.jpg" alt="">
             </div>
 
             <div class="banner-second-img">
-                <img src="assets/media/placeholder-8.jpg" alt="">
+                <img decoding="async" loading="lazy" src="assets/media/placeholder-8.jpg" alt="">
             </div>
 
             <div class="inner text-left mt-0">
                 
-                <h1 class="title-small">Studio Monaco</h1>
+                <h1 class="title-small font-weight-900">Studio Monaco</h1>
                 <p class="text-medium secondary-font mt-10">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. 
                     Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.
@@ -336,7 +362,7 @@
             <div class="column small">
                
                 <div class="logo">
-                    <img src="assets/media/logo.png" alt="logo">
+                    <img decoding="async" loading="lazy" src="assets/media/logo.png" alt="logo">
                 </div>
                 <h1 class="title-small font-weight-600">Studio Monaco</h1>
                 <div class="payment-methods">
@@ -351,7 +377,7 @@
 
             </div>
 
-            <div class="column small"><i class="fa-solid fa-chevron-down"></i>
+            <div class="column small">
                
                 <h1 class="title-small secondary-font font-weight-600">contact & info</h1>
                 <div class="super-spacial-horizontal-wrapper">
@@ -359,7 +385,6 @@
                         <li>Langs de werf 6</li>
                         <li>1185 XT Amstelveen</li>
                         <li>Vergunningnummer: Z23-028565</li>
-                        <br>
                         <li class="primary-color"><a class="footer-link" href="tel:+31 (0)20–7520594">+31 (0)20–7520594</a></li>
                         <li class="primary-color"><a class="footer-link" href="mailto:info@studio-monaco.nl">info@studio-monaco.nl</a></li>
                     </ul>
@@ -367,7 +392,7 @@
 
             </div>
 
-            <div class="column small"><i class="fa-solid fa-chevron-down"></i>
+            <div class="column small">
                
                 <h1 class="title-small secondary-font font-weight-600">links</h1>
                 <div class="super-spacial-horizontal-wrapper">
@@ -383,7 +408,7 @@
 
             </div>
 
-            <div class="column small"><i class="fa-solid fa-chevron-down"></i>
+            <div class="column small">
 
                 <h1 class="title-small secondary-font font-weight-600">tarieven</h1>
                 <div class="super-spacial-horizontal-wrapper">
@@ -404,7 +429,7 @@
 
             </div>
 
-            <div class="column small"><i class="fa-solid fa-chevron-down"></i>
+            <div class="column small">
 
                 <h1 class="title-small secondary-font font-weight-600">openingstijden</h1>
                 <div class="super-spacial-horizontal-wrapper">

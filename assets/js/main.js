@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const navbarMenu = document.getElementById("menu");
 const burgerMenu = document.getElementById("burger");
 const headerMenu = document.getElementById("nav");
+const body = document.body;
 
 
 // Open Close Navbar Menu on Click Burger ////////////
@@ -17,6 +18,7 @@ if (burgerMenu && navbarMenu) {
    burgerMenu.addEventListener("click", () => {
       burgerMenu.classList.toggle("is-active");
       navbarMenu.classList.toggle("is-active");
+      body.classList.toggle("no-scroll")
    });
 }
 
@@ -27,6 +29,7 @@ document.querySelectorAll(".navbar-link").forEach((link) => {
    link.addEventListener("click", () => {
       burgerMenu.classList.remove("is-active");
       navbarMenu.classList.remove("is-active");
+      body.classList.remove("no-scroll")
    });
 });
 

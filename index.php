@@ -7,12 +7,10 @@ require 'functions.php';
 // IMPORTANT - Make sure pages labeled and named below are identical to pages in `pages` folder
 $pages = [
     'home' => [
-        'nav_label' => 'Home',
-        'title' => 'Home - Your Website',
-        'meta_description' => 'Welcome to the homepage.',
+        'title' => 'Home - Studio Monaco',
+        'meta_description' => 'Welkom bij Studio Monaco.',
     ],
     'dame' => [
-        'nav_label' => 'dame',
         'title' => 'Profiel Van Dame',
         'meta_description' => 'Omschrijving van dame',
     ],

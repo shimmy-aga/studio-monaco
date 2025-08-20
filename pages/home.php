@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <!-- HERO SECTION --><!-- ------------------ --><!-- ------------------ --><!-- ------------------ -->
 <!-- ------------ --><!-- ------------------ --><!-- ------------------ --><!-- ------------------ -->
 
@@ -7,8 +5,8 @@
     <div class="container">
         
         <div class="inner">
-            <h1 class="title-big">WELKOM BIJ STUDIO MONACO</h1>
-            <p class="text-medium secondary-font max-width-600">
+            <h1 data-animate class="title-big">WELKOM BIJ STUDIO MONACO</h1>
+            <p data-animate class="text-medium secondary-font max-width-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. 
                 Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.
             </p>
@@ -16,7 +14,7 @@
 
         <div class="cards-wrapper">
             
-            <div class="card slim">
+            <div data-animate class="card slim">
 
                 <img decoding="async" loading="lazy" src="assets/media/alysia.jpg" alt="">
                 <div class="info">
@@ -29,7 +27,7 @@
 
             </div>
 
-            <div class="card slim">
+            <div data-animate class="card slim">
                 
                 <img decoding="async" loading="lazy" src="assets/media/anita.jpg" alt="">
                 <div class="info">
@@ -42,7 +40,7 @@
 
             </div> 
 
-            <div class="card slim">
+            <div data-animate class="card slim">
 
                 <img decoding="async" loading="lazy" src="assets/media/celli.jpg" alt="">
                 <div class="info">
@@ -55,7 +53,7 @@
 
             </div>
 
-            <div class="card slim">
+            <div data-animate class="card slim">
 
                 <img decoding="async" loading="lazy" src="assets/media/mandy.jpg" alt="">
                 <div class="info">
@@ -80,11 +78,11 @@
 <section class="section">
     <div class="container flexbox">
 
-        <h1 class="title-small text-center">Belevenissen</h1>
+        <h1 data-animate class="title-small text-center">Belevenissen</h1>
 
         <div class="highlights-wrapper">
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-1.jpg" alt=""></div>
                 <div class="vertical-wrapper">
@@ -94,7 +92,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-2.jpg" alt=""></div>
                 <div class="vertical-wrapper">
@@ -104,7 +102,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-3.jpg" alt=""></div>
                 <div class="vertical-wrapper">
@@ -114,7 +112,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-4.jpg" alt=""></div>
                 <div class="vertical-wrapper">
@@ -124,7 +122,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-5.webp" alt=""></div>
                 <div class="vertical-wrapper">
@@ -134,7 +132,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-6.avif" alt=""></div>
                 <div class="vertical-wrapper">
@@ -144,7 +142,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-7.webp" alt=""></div>
                 <div class="vertical-wrapper">
@@ -154,7 +152,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-8.jpg" alt=""></div>
                 <div class="vertical-wrapper">
@@ -164,7 +162,7 @@
                 
             </div>
 
-            <div class="highlight">
+            <div data-animate class="highlight">
                 
                 <div class="tiny-img-mask"><img decoding="async" loading="lazy" src="assets/media/placeholder-9.jpg" alt=""></div>
                 <div class="vertical-wrapper">
@@ -176,7 +174,7 @@
 
         </div>
 
-        <div class="text-center mt-50"><a href="" class="btn btn-primary secondary-font">Bekijk meer</a></div>
+        <div data-animate class="text-center mt-50"><a href="" class="btn btn-primary secondary-font">Bekijk meer</a></div>
 
     </div>
 </section>
@@ -188,7 +186,7 @@
 <section class="section">
     <div class="container flexbox">
         
-        <div class="single">
+        <div data-animate class="single">
             <h1 class="title-medium">Neem een kijkje in onze wereld van passie</h1>
             <p class="text-medium secondary-font max-width-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. 
@@ -198,19 +196,19 @@
 
         <div class="cards-wrapper">
             
-            <div class="static-card wide">
+            <div data-animate class="static-card wide">
 
                 <img decoding="async" loading="lazy" src="assets/media/placeholder-5.webp" alt="">
 
             </div>
 
-            <div class="static-card wide">
+            <div data-animate class="static-card wide">
                 
                 <img decoding="async" loading="lazy" src="assets/media/placeholder-6.avif" alt="">
 
             </div>
 
-            <div class="static-card wide">
+            <div data-animate class="static-card wide">
 
                 <img decoding="async" loading="lazy" src="assets/media/placeholder-7.webp" alt="">
 
@@ -218,7 +216,7 @@
 
         </div>
 
-        <div class="text-center mt-50"><a href="" class="btn btn-primary secondary-font">Boek nu</a></div>
+        <div data-animate class="text-center mt-50"><a href="" class="btn btn-primary secondary-font">Boek nu</a></div>
 
     </div>
 </section>
@@ -230,15 +228,15 @@
 <section class="section banner">
     <div class="container flexbox">
         
-        <div class="banner-first-img">
+        <div data-animate class="banner-first-img">
             <img decoding="async" loading="lazy" src="assets/media/placeholder-9.jpg" alt="">
         </div>
 
-        <div class="banner-second-img">
+        <div data-animate class="banner-second-img">
             <img decoding="async" loading="lazy" src="assets/media/placeholder-8.jpg" alt="">
         </div>
 
-        <div class="inner text-left mt-0">
+        <div data-animate class="inner text-left mt-0">
             
             <h1 class="title-small font-weight-900">Studio Monaco</h1>
             <p class="text-medium secondary-font mt-10">
@@ -246,7 +244,7 @@
                 Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.
             </p>
 
-            <div class="spacial-horizontal-wrapper mt-25 secondary-font">
+            <div data-animate class="spacial-horizontal-wrapper mt-25 secondary-font">
                 
                 <a href="" class="btn btn-secondary">Lees meer</a>
 

@@ -1,0 +1,31 @@
+/* ================================== *//* ================================== */
+/*          ANIMATIONS.CSS            *//* ================================== */
+/*                                    *//* ================================== */
+/* ================================== *//* ================================== */
+
+
+
+/* ================================== */
+/* == Animate into viewport ========= */
+/* ================================== */
+
+/* Fallback data */
+[data-animate]{
+    opacity: 0;
+    transform: translateY(var(--move, 30px)) scale(var(--scale, 1));
+    transition:
+    opacity var(--dur, 750ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms),
+    transform var(--dur, 750ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms);
+    will-change: transform, opacity;
+}
+
+/* Animate in */
+[data-animate].animate-in{
+    opacity: 1;
+    transform: none;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+    [data-animate]{ transition:none; opacity:1; transform:none; }
+}

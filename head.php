@@ -1,3 +1,5 @@
+<html lang="en">
+
 <head>
 
     <!-- Standard HTML -->
@@ -6,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Standard SEO -->
-    <title> Studio Monaco </title>
-    <meta name="description" content="Welkom bij Studio Monaco">
+    <title><?php echo htmlspecialchars($pageTitle); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($metaDescription); ?>">
+    <link rel="canonical" href="<?php echo htmlspecialchars('https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']); ?>">
+    <meta name="robots" content="index, follow">
 
     <!-- CDN'S -->
     <script rel="preconnect" src="https://kit.fontawesome.com/1e28254ed2.js" crossorigin="anonymous"></script>
@@ -21,10 +25,12 @@
     <link rel="manifest" href="assets/media/favicon/site.webmanifest" />
 
     <!-- Custom CSS and JS -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/main.js" defer></script>
-    <script src="assets/js/gallery.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/animations.css">
+    <script src="/assets/js/main.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
+    <script src="/assets/js/animations.js" defer></script>
 
 
 </head>

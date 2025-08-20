@@ -5,7 +5,7 @@
 <footer class="section footer">
     <div class="container flexbox">
 
-        <div class="column small">
+        <div data-animate class="column small">
             
             <div class="logo">
                 <img decoding="async" loading="lazy" src="assets/media/logo.png" alt="logo">
@@ -23,7 +23,7 @@
 
         </div>
 
-        <div class="column small">
+        <div data-animate class="column small">
             
             <h1 class="title-small secondary-font font-weight-600">contact & info</h1>
             <div class="super-spacial-horizontal-wrapper">
@@ -38,7 +38,7 @@
 
         </div>
 
-        <div class="column small">
+        <div data-animate class="column small">
             
             <h1 class="title-small secondary-font font-weight-600">links</h1>
             <div class="super-spacial-horizontal-wrapper">
@@ -54,7 +54,7 @@
 
         </div>
 
-        <div class="column small">
+        <div data-animate class="column small">
 
             <h1 class="title-small secondary-font font-weight-600">tarieven</h1>
             <div class="super-spacial-horizontal-wrapper">
@@ -75,7 +75,7 @@
 
         </div>
 
-        <div class="column small">
+        <div data-animate class="column small">
 
             <h1 class="title-small secondary-font font-weight-600">openingstijden</h1>
             <div class="super-spacial-horizontal-wrapper">
@@ -112,3 +112,5 @@
     </div>
 
 </footer>
+
+</body>

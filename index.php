@@ -37,7 +37,7 @@ if (!in_array($page, $allowedPages, true)) {
 require 'head.php';
 
 // Render nav
-require ROOT_DIR . '/components/layout/nav.php';
+render_layout('nav');
 
 // Include page content below
 ?>
@@ -58,6 +58,6 @@ require ROOT_DIR . '/components/layout/nav.php';
 <?php 
 
 // Render footer
-require ROOT_DIR . '/components/layout/footer.php'
+render_layout('footer');
 
 ?>

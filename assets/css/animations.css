@@ -23,6 +23,11 @@
 [data-animate].animate-in{
     opacity: 1;
     transform: none;
+    
+    /* Declare specifically as standard css override */
+    transition:
+    opacity var(--dur, 950ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms),
+    transform var(--dur, 950ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms);
 }
 
 /* Respect reduced motion */

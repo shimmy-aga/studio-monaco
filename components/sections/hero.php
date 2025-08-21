@@ -48,8 +48,8 @@
                     <p class="text-medium">Celli</p>
                     <p class="text-small secondary-font"><i class="fa-regular fa-clock"></i>Morgen</p>
                 </div>
-                <div class="checker offline">
-                    <p  class="text-small secondary-font"><i class="fa-solid fa-circle"></i>Afwezig</p>
+                <div class="checker sleep">
+                    <p  class="text-small secondary-font"><i class="fa-solid fa-circle"></i>Later beschikbaar</p>
                 </div>
 
             </div>

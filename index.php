@@ -7,12 +7,28 @@ require 'functions.php';
 // IMPORTANT - Make sure pages labeled and named below are identical to pages in `pages` folder
 $pages = [
     'home' => [
-        'title' => 'Home - Studio Monaco',
+        'title' => 'Studio Monaco - home',
         'meta_description' => 'Welkom bij Studio Monaco.',
     ],
+    'over-ons' => [
+        'title' => 'Studio Monaco -over ons',
+        'meta_description' => '',
+    ],
+    'dames' => [
+        'title' => 'Studio Monaco - onze dames',
+        'meta_description' => '',
+    ],
     'dame' => [
-        'title' => 'Profiel Van Dame',
-        'meta_description' => 'Omschrijving van dame',
+        'title' => 'Studio Monaco - profiel van dame',
+        'meta_description' => '',
+    ],
+    'agenda' => [
+        'title' => 'Studio Monaco - agenda',
+        'meta_description' => '',
+    ],
+    'contact' => [
+        'title' => 'Studio Monaco - contact',
+        'meta_description' => '',
     ],
     // You can add more pages here easily
 ];

@@ -9,8 +9,8 @@
 
 $title      = $title     ?? '';
 $subtitle   = $subtitle  ?? '';
-$bg_img     = $bg_img ?? '';
-$bg_img_alt = $bg_img_alt ?? '';
+$bg_img     = $bg_img ?? 'assets/media/placeholder-4.jpg';
+$bg_img_alt = $bg_img_alt ?? 'Studio monaco sfeerbeeld';
 $cards      = $cards     ?? [];
 
 ?>

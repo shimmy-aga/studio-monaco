@@ -1,6 +1,15 @@
 <?php render_section('hero') ?>
 
-
+<section class="cards section">
+    <div class="container">        
+        <div class="single">
+            <h1 data-animate class="title-medium">AGENDA</h1>
+            <p data-animate class="text-big secondary-font max-width-600">
+                Hieronder zie je een overzicht van wanneer de dames beschikbaar zijn
+            </p>
+        </div>
+    </div>
+</section>
 
 <section class="section calendar-section">
     <div class="calendar-wrapper">

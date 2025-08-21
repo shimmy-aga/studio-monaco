@@ -12,10 +12,10 @@
 /* Fallback data */
 [data-animate]{
     opacity: 0;
-    transform: translateY(var(--move, 30px)) scale(var(--scale, 1));
+    transform: translateY(var(--move, 40px)) scale(var(--scale, 1));
     transition:
-    opacity var(--dur, 750ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms),
-    transform var(--dur, 750ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms);
+    opacity var(--dur, 950ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms),
+    transform var(--dur, 950ms) var(--ease, cubic-bezier(.2,.7,.3,1)) var(--delay,150ms);
     will-change: transform, opacity;
 }
 
@@ -28,4 +28,15 @@
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce){
     [data-animate]{ transition:none; opacity:1; transform:none; }
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn .5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }

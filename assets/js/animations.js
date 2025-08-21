@@ -18,12 +18,20 @@
     if (el.dataset.animateEase)  el.style.setProperty('--ease',  el.dataset.animateEase);
   });
 
+
   // Prefer IntersectionObserver for performance
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
       entries.forEach(({ isIntersecting, target }) => {
         if (isIntersecting) {
           target.classList.add('animate-in');
+
+          // After the transition completes, strip the animation classes
+          target.addEventListener('transitionend', () => {
+            target.removeAttribute('data-animate');
+            target.classList.remove('animate-in');
+          }, { once: true });
+
           if (!target.hasAttribute('data-animate-repeat')) io.unobserve(target);
         } else if (target.hasAttribute('data-animate-repeat')) {
           target.classList.remove('animate-in');
@@ -34,6 +42,7 @@
     els.forEach(el => io.observe(el));
     return;
   }
+
 
   // ~1KB fallback for older browsers (simple in-view check)
   const inView = el => {

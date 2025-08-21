@@ -10,11 +10,7 @@ $pages = [
         'title' => 'Studio Monaco - home',
         'meta_description' => 'Welkom bij Studio Monaco.',
     ],
-    'over-ons' => [
-        'title' => 'Studio Monaco -over ons',
-        'meta_description' => '',
-    ],
-    'dames' => [
+    'onze-dames' => [
         'title' => 'Studio Monaco - onze dames',
         'meta_description' => '',
     ],
@@ -26,8 +22,16 @@ $pages = [
         'title' => 'Studio Monaco - agenda',
         'meta_description' => '',
     ],
+    'tarieven' => [
+        'title' => 'Studio Monaco - tarieven',
+        'meta_description' => '',
+    ],
     'contact' => [
         'title' => 'Studio Monaco - contact',
+        'meta_description' => '',
+    ],
+    'boek-nu' => [
+        'title' => 'Studio Monaco - boek nu jouw afsrpaak',
         'meta_description' => '',
     ],
     // You can add more pages here easily

@@ -31,6 +31,10 @@ function closeLightbox() {
     document.body.classList.remove('no-scroll')
 }
 
+lightbox.addEventListener('click', (ev) => {
+    if (ev.target === lightbox) closeLightbox();
+});
+
 
 // Change the lightbox image based on direction //////
 //////////////////////////////////////////////////////
@@ -89,6 +93,8 @@ document.addEventListener('keydown', function (e) {
             changeImage(-1);
         } else if (e.key === 'ArrowRight') {
             changeImage(1);
+        } else if (e.key === 'Escape') {
+            closeLightbox();
         }
     }
 });

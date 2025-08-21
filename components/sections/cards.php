@@ -29,10 +29,11 @@ $cards      = $cards ?? [];
                 $available          = $card['available'];
                 $img                = $card['img_src'];
                 $img_alt            = $card['img_alt'];
-                $status_class       = $card['status'];      
+                $status_class       = $card['status'];    
+                $card_href          = $card['link_dame'];  
             ?>
                 
-            <div data-animate class="card slim">
+            <a data-animate class="card slim" href="<?= htmlspecialchars($card_href) ?>">
                 <img decoding="async" loading="lazy" src="<?= htmlspecialchars($img) ?>" alt="">
                 <div class="info">
                     <p class="text-medium"><?= htmlspecialchars($name) ?></p>
@@ -41,7 +42,7 @@ $cards      = $cards ?? [];
                 <div class="checker <?= htmlspecialchars($status_class) ?>">
                     <p  class="text-small secondary-font"><i class="fa-solid fa-circle"></i> <?= htmlspecialchars($available) ?> </p>
                 </div>
-            </div>
+            </a>
 
             <?php endforeach; ?>
         </div>

@@ -44,12 +44,11 @@
             <h1 class="title-small secondary-font font-weight-600">links</h1>
             <div class="super-spacial-horizontal-wrapper">
                 <ul class="text-medium secondary-font vertical-wrapper">
-                    <li><a href="" class="footer-link">Home</a></li>
-                    <li><a href="" class="footer-link">Over ons</a></li>
-                    <li><a href="" class="footer-link">Dames</a></li>
-                    <li><a href="" class="footer-link">Agenda</a></li>
-                    <li><a href="" class="footer-link">Tarieven</a></li>
-                    <li><a href="" class="footer-link">Contact</a></li>
+                    <li><a href="/" class="footer-link">Home</a></li>
+                    <li><a href="dames" class="footer-link">Onze dames</a></li>
+                    <li><a href="agenda" class="footer-link">Agenda</a></li>
+                    <li><a href="tarieven" class="footer-link">Tarieven</a></li>
+                    <li><a href="contact" class="footer-link">Contact</a></li>
                 </ul>
             </div>
 
@@ -72,7 +71,7 @@
                     <li>€200,-</li>
                 </ul>
             </div>
-            <a href="" class="mt-10 btn btn-primary secondary-font">Boek nu</a>
+            <a href="boek-nu" class="mt-10 btn btn-primary secondary-font">Boek nu</a>
 
         </div>
 

@@ -20,6 +20,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/alysia.jpg',
             'img_alt'        => 'Alysia',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Anita',
@@ -28,6 +29,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/anita.jpg',
             'img_alt'        => 'Anita',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Celli',
@@ -36,6 +38,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/celli.jpg',
             'img_alt'        => 'Celli',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Mandy',
@@ -44,6 +47,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/mandy.jpg',
             'img_alt'        => 'Mandy',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Alysia',
@@ -52,6 +56,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/alysia.jpg',
             'img_alt'        => 'Alysia',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Anita',
@@ -60,6 +65,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/anita.jpg',
             'img_alt'        => 'Anita',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Celli',
@@ -68,6 +74,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/celli.jpg',
             'img_alt'        => 'Celli',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Mandy',
@@ -76,6 +83,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/mandy.jpg',
             'img_alt'        => 'Mandy',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Alysia',
@@ -84,6 +92,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/alysia.jpg',
             'img_alt'        => 'Alysia',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Anita',
@@ -92,6 +101,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/anita.jpg',
             'img_alt'        => 'Anita',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Celli',
@@ -100,6 +110,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/celli.jpg',
             'img_alt'        => 'Celli',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Mandy',
@@ -108,6 +119,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/mandy.jpg',
             'img_alt'        => 'Mandy',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Alysia',
@@ -116,6 +128,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/alysia.jpg',
             'img_alt'        => 'Alysia',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Anita',
@@ -124,6 +137,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/anita.jpg',
             'img_alt'        => 'Anita',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Celli',
@@ -132,6 +146,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/celli.jpg',
             'img_alt'        => 'Celli',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Mandy',
@@ -140,6 +155,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/mandy.jpg',
             'img_alt'        => 'Mandy',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Alysia',
@@ -148,6 +164,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/alysia.jpg',
             'img_alt'        => 'Alysia',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Anita',
@@ -156,6 +173,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/anita.jpg',
             'img_alt'        => 'Anita',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Celli',
@@ -164,6 +182,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/celli.jpg',
             'img_alt'        => 'Celli',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Mandy',
@@ -172,6 +191,7 @@ render_section('cards', [
             'img_src'        => 'assets/media/mandy.jpg',
             'img_alt'        => 'Mandy',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
     ],
 ]);

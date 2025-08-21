@@ -1,4 +1,7 @@
 <?php 
+// START //////////////////////////////////////////////
+///////////////////////////////////////////////////////
+
 
 // HERO ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
@@ -15,6 +18,7 @@ render_section('hero', [
             'img_src'        => 'assets/media/alysia.jpg',
             'img_alt'        => 'Alysia',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Anita',
@@ -23,6 +27,7 @@ render_section('hero', [
             'img_src'        => 'assets/media/anita.jpg',
             'img_alt'        => 'Anita',
             'status'         => 'online',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Celli',
@@ -31,6 +36,7 @@ render_section('hero', [
             'img_src'        => 'assets/media/celli.jpg',
             'img_alt'        => 'Celli',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
         [
             'name'           => 'Mandy',
@@ -39,6 +45,7 @@ render_section('hero', [
             'img_src'        => 'assets/media/mandy.jpg',
             'img_alt'        => 'Mandy',
             'status'         => 'sleep',
+            'link_dame'      => 'dame',
         ],
     ],
 ]);
@@ -59,8 +66,8 @@ render_section('highlights', [
         ['img' => 'assets/media/placeholder-8.jpg', 'headline' => 'Striptease Show',     'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
         ['img' => 'assets/media/placeholder-9.jpg', 'headline' => 'Fantasy Rooms',       'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
     ],
-    'cta_text' => 'Bekijk meer',
-    'cta_href' => '',
+    'cta_text' => 'Boek nu',
+    'cta_href' => 'boek-nu',
 ]);
 
 
@@ -74,8 +81,8 @@ render_section('slides', [
         ['src' => 'assets/media/placeholder-6.avif', 'alt' => 'Slide 2'],
         ['src' => 'assets/media/placeholder-7.webp', 'alt' => 'Slide 3'],
     ],
-    'cta_text' => 'Boek nu',
-    'cta_href' => '',
+    'cta_text' => 'Dames bekijken',
+    'cta_href' => 'onze-dames',
 ]);
 
 
@@ -89,7 +96,7 @@ render_section('banner', [
     'title'          => 'Studio Monaco',
     'subtitle'       => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.",
     'cta_text'       => 'Lees meer',
-    'cta_href'       => '',
+    'cta_href'       => 'contact',
     'usps'           => [
         ['value' => '12+',   'label' => 'Jaar actief'],
         ['value' => '17',    'label' => 'Dames'],
@@ -99,5 +106,6 @@ render_section('banner', [
 ]);
 
 
-
+// END ////////////////////////////////////////////////
+///////////////////////////////////////////////////////
 ?>

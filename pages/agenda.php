@@ -1,103 +1,52 @@
-<?php render_section('hero') ?>
+<?php 
+// START //////////////////////////////////////////////
+///////////////////////////////////////////////////////
 
-<section class="cards section">
-    <div class="container">        
-        <div class="single">
-            <h1 data-animate class="title-medium">AGENDA</h1>
-            <p data-animate class="text-big secondary-font max-width-600">
-                Hieronder zie je een overzicht van wanneer de dames beschikbaar zijn
-            </p>
-        </div>
-    </div>
-</section>
 
-<section class="section calendar-section">
-    <div class="calendar-wrapper">
-        <div class="left">
-            <div class="calendar">
+// HERO ///////////////////////////////////////////////
+///////////////////////////////////////////////////////
+render_section('hero'); 
 
-                <div class="month">
-                    <i class="fas fa-angle-left prev"></i>
-                    <div class="date">augustus 2025</div>
-                    <i class="fas fa-angle-right next"></i>
-                </div>
 
-                <div class="weekdays">
-                    <div>zo</div>
-                    <div>ma</div>
-                    <div>di</div>
-                    <div>wo</div>
-                    <div>do</div>
-                    <div>vr</div>
-                    <div>za</div>
-                </div>
+// SINGLE /////////////////////////////////////////////
+///////////////////////////////////////////////////////
+render_section('single', [
+    'title' => 'AGENDA',
+    'intro' => "Hieronder zie je een overzicht van de beschikbaarheid.",
+]);
 
-                <div class="days"></div>
-            
-            </div>
-        </div>
 
-        <div class="right">
+// CALENDAR ///////////////////////////////////////////
+///////////////////////////////////////////////////////
+render_section('calendar', [
+    'events' => [
+        ['title' => 'Anita',  'time_start' => '09:00', 'time_end' => '11:00'],
+        ['title' => 'Celli',  'time_start' => '11:30', 'time_end' => '12:30'],
+        ['title' => 'Soraya', 'time_start' => '13:00', 'time_end' => '15:00'],
+    ],
+]);
 
-            <div class="today-date">
-                <div class="event-day">vrij</div>
-                <div class="event-date">22 augustus 2025</div>
-            </div>
 
-            <div class="events">
+// BANNER /////////////////////////////////////////////
+///////////////////////////////////////////////////////
+render_section('banner', [
+    'first_img_src'  => 'assets/media/placeholder-9.jpg',
+    'first_img_alt'  => '',
+    'second_img_src' => 'assets/media/placeholder-8.jpg',
+    'second_img_alt' => '',
+    'title'          => 'Studio Monaco',
+    'subtitle'       => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.",
+    'cta_text'       => 'Boek nu',
+    'cta_href'       => 'boek-nu',
+    'usps'           => [
+        ['value' => '12+',   'label' => 'Jaar actief'],
+        ['value' => '17',    'label' => 'Dames'],
+        ['value' => '20',    'label' => 'Kamers'],
+        ['value' => '3,450+','label' => 'Tevreden klanten'],
+    ]
+])
 
-                <div class="event">
-                    <div class="title">
-                    <i class="fas fa-circle"></i>
-                    <h3 class="event-title">Anita</h3>
-                    </div>
-                    <div class="event-time">
-                    <span class="event-time">5:04 AM - 7:07 AM</span>
-                    </div>
-                </div>
 
-                <div class="event">
-                    <div class="title">
-                    <i class="fas fa-circle"></i>
-                    <h3 class="event-title">Celli</h3>
-                    </div>
-                    <div class="event-time">
-                    <span class="event-time">5:04 AM - 7:07 AM</span>
-                    </div>
-                </div>
-
-                <div class="event">
-                    <div class="title">
-                    <i class="fas fa-circle"></i>
-                    <h3 class="event-title">Soraya</h3>
-                    </div>
-                    <div class="event-time">
-                    <span class="event-time">5:04 AM - 7:07 AM</span>
-                    </div>
-                </div>
-
-                <div class="event">
-                    <div class="title">
-                    <i class="fas fa-circle"></i>
-                    <h3 class="event-title">Alysia</h3>
-                    </div>
-                    <div class="event-time">
-                    <span class="event-time">5:04 AM - 7:07 AM</span>
-                    </div>
-                </div>
-
-                <div class="event">
-                    <div class="title">
-                    <i class="fas fa-circle"></i>
-                    <h3 class="event-title">Mandy</h3>
-                    </div>
-                    <div class="event-time">
-                    <span class="event-time">5:04 AM - 7:07 AM</span>
-                    </div>
-                </div>
-
-            </div>
-            
-        </div>
-    </div>
-</section>
+// END ////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+?>

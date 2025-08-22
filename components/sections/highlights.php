@@ -15,15 +15,9 @@ $cta_href  = $cta_href  ?? '';
 // Fallback items to match static content
 if (empty($items)) {
     $items = [
-        ['img' => 'assets/media/placeholder-1.jpg', 'img_alt' => 'Girlfriend Fantasy', 'headline' => 'Girlfriend Fantasy', 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-2.jpg', 'img_alt' => 'BDSM-ervaring',      'headline' => 'BDSM-ervaring',      'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
+        ['img' => 'assets/media/placeholder-1.jpg', 'img_alt' => 'Girlfriend Fantasy', 'headline' => 'Girlfriend Fantasy',   'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
+        ['img' => 'assets/media/placeholder-2.jpg', 'img_alt' => 'BDSM-ervaring',      'headline' => 'BDSM-ervaring',        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
         ['img' => 'assets/media/placeholder-3.jpg', 'img_alt' => 'Rollenspel',          'headline' => 'Rollenspel',          'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-4.jpg', 'img_alt' => 'Sensory Play',        'headline' => 'Sensory Play',        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-5.webp','img_alt' => 'Erotische Massage',   'headline' => 'Erotische Massage',   'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-6.avif','img_alt' => 'Kinky Workshops',     'headline' => 'Kinky Workshops',     'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-7.webp','img_alt' => 'Groepservaringen',    'headline' => 'Groepservaringen',    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-8.jpg', 'img_alt' => 'Striptease Show',     'headline' => 'Striptease Show',     'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-9.jpg', 'img_alt' => 'Fantasy Rooms',       'headline' => 'Fantasy Rooms',       'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
     ];
 }
 ?>

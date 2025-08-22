@@ -18,7 +18,7 @@
     display: flex;
 
     border-radius: 10px;
-    background: linear-gradient(rgba(var(--color-secondary-raw), 0.75), rgba(var(--color-primary-raw), 0.75));
+    background: linear-gradient(rgba(var(--color-primary-raw), 0.75), rgba(var(--color-dark-raw), 0.75));
     font-family: var(--font-tertiary);
 }
 

@@ -10,6 +10,8 @@ const navbarMenu = document.getElementById("menu");
 const burgerMenu = document.getElementById("burger");
 const headerMenu = document.getElementById("nav");
 const body = document.body;
+const html = document.documentElement;
+let scrollPosition = 0;
 
 
 // Open Close Navbar Menu on Click Burger ////////////
@@ -18,7 +20,26 @@ if (burgerMenu && navbarMenu) {
    burgerMenu.addEventListener("click", () => {
       burgerMenu.classList.toggle("is-active");
       navbarMenu.classList.toggle("is-active");
-      body.classList.toggle("no-scroll")
+
+      // Handle scrolling
+      if (burgerMenu.classList.contains("is-active")) {
+         // OPEN
+         scrollPosition = window.scrollY;
+         body.style.top = `-${scrollPosition}px`;
+         body.classList.add("no-scroll");
+      } else {
+         // CLOSE
+         body.classList.remove("no-scroll");
+         const y = -parseInt(body.style.top || "0", 10);
+         body.style.top = "";
+
+         const prev = html.style.scrollBehavior;
+         html.style.scrollBehavior = "auto";    
+         window.scrollTo(0, y);
+         requestAnimationFrame(() => {
+         html.style.scrollBehavior = prev;     
+         });
+      }
    });
 }
 
@@ -29,7 +50,18 @@ document.querySelectorAll(".navbar-link").forEach((link) => {
    link.addEventListener("click", () => {
       burgerMenu.classList.remove("is-active");
       navbarMenu.classList.remove("is-active");
+      
+      // enable scroll 
       body.classList.remove("no-scroll")
+      const y = -parseInt(body.style.top || "0", 10);
+      body.style.top = "";
+
+      const prev = html.style.scrollBehavior;
+      html.style.scrollBehavior = "auto";
+      window.scrollTo(0, y);
+      requestAnimationFrame(() => {
+         html.style.scrollBehavior = prev;
+      });
    });
 });
 

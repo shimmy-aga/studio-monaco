@@ -419,7 +419,7 @@ img, svg, picture {
 
 .column.wide {
    gap: 1.5rem; margin: 2rem;
-   width: 100%; max-width: 525px; min-width: 225px;
+   width: 100%; max-width: 425px; min-width: 225px;
 }
 
 /* == Cards ========================= */

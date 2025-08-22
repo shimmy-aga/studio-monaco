@@ -28,11 +28,13 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/animations.css">
-    <link rel="stylesheet" href="/assets/css/calender.css">
+    <link rel="stylesheet" href="/assets/css/calendar.css">
+    <link rel="stylesheet" href="/assets/css/form.css">
     <script src="/assets/js/main.js" defer></script>
     <script src="/assets/js/gallery.js" defer></script>
     <script src="/assets/js/animations.js" defer></script>
-    <script src="/assets/js/calender.js" defer></script>
+    <script src="/assets/js/calendar.js" defer></script>
+    <script src="/assets/js/form.js" defer></script>
 
 </head>
 

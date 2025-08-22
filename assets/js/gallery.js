@@ -4,8 +4,6 @@
 
 
 
-
-
 let currentIndex = 0;
 const images = document.querySelectorAll('.gallery img');
 const totalImages = images.length;
@@ -98,7 +96,6 @@ document.addEventListener('keydown', function (e) {
         }
     }
 });
-
 
 
 

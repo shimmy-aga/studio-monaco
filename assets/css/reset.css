@@ -10,7 +10,6 @@
 /* ================================== *//* ================================== */
 
 
-
 input,
 label,
 select,
@@ -50,8 +49,6 @@ select {
 	box-sizing:border-box;
 
     appearance: none;
-    border-radius: 0;
-    -webkit-border-radius: 0;
     -webkit-appearance: none;
 }
 

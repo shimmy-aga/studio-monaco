@@ -1,0 +1,128 @@
+/* ================================== *//* ================================== */
+/*             FORM.CSS               *//* ================================== */
+/*                                    *//* ================================== */
+/* ================================== *//* ================================== */
+
+
+
+/* ================================== */
+/* == Form styling ================== */
+/* ================================== */
+
+
+.contact-form {
+    max-width: 800px;
+	margin: 0 auto;
+    position: relative;
+    font-family: var(--font-primary);
+}
+
+.form-row {
+	margin: -20px 0;
+}
+
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-row .col {
+    padding: 0 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.form-row .col.x-50 {
+    width: 50%;
+}
+
+.form-row .col.x-100 {
+    width: 100%;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.contact-form .form-title {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    color: var(--color-light);
+    width: 100%;
+    height: 36px;
+    border-bottom: solid 2px var(--color-secondary);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px);
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--color-secondary);
+    font-family: var(--font-tertiary);
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+}
+ 
+
+/* ================================== */
+/* == Autofill fix ================== */
+/* ================================== */
+
+
+:root{
+  --surface: transparent;
+  --text:    var(--color-light);
+}
+
+/* Chrome/Edge/Safari (WebKit/Blink) */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill{
+  
+  box-shadow: 0 0 0 1000px var(--surface) inset !important;
+  -webkit-text-fill-color: var(--text) !important;
+  caret-color: var(--text) !important;
+  transition: background-color 9999s ease-out 0s !important;
+}
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill:focus{
+  box-shadow: 0 0 0 1000px var(--surface) inset !important;
+}
+
+/* Firefox */
+input:-moz-autofill,
+textarea:-moz-autofill,
+select:-moz-autofill{
+  box-shadow: 0 0 0 1000px var(--surface) inset;
+  color: var(--text);
+  caret-color: var(--text);
+}
+
+
+

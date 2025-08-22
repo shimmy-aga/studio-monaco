@@ -1,3 +1,9 @@
+// START SCRIPT ========================================================== //
+// ======================================================================= //
+
+
+
+
 const date = document.querySelector(".date"),
   daysContainer = document.querySelector(".days"),
   prev = document.querySelector(".prev"),
@@ -156,3 +162,9 @@ function getEvents() {
   if (!stored) return;
   eventsArr.push(...JSON.parse(stored));
 }
+
+
+
+
+// END SCRIPT ============================================================ //
+// ======================================================================= //

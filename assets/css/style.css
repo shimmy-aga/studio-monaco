@@ -399,7 +399,7 @@ img, svg, picture {
 }
 
 .single {
-   display: flex; flex-direction: column;
+   display: flex; flex-direction: column; flex: 100% 1 1;
    row-gap: 1.25rem;
    text-align: center; justify-content: center; align-items: center;
    max-width: 1200px;
@@ -810,7 +810,7 @@ img, svg, picture {
       
 }
 
-.boxes .column:hover {
+.boxes .column:hover, .boxes .column:focus {
    background-color: var(--color-primary);
 }
 
@@ -915,6 +915,7 @@ img, svg, picture {
    padding: 0.5rem 2.2rem;
    border-radius: 0.2rem;
    transition: all 0.2s ease-in-out;
+   cursor: pointer;
 }
 
 .spacial-horizontal-wrapper .btn {

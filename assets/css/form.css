@@ -14,7 +14,7 @@
     max-width: 800px;
 	margin: 0 auto;
     position: relative;
-    font-family: var(--font-primary);
+    font-family: var(--font-tertiary);
 }
 
 .form-row {
@@ -61,7 +61,7 @@
     color: var(--color-light);
     width: 100%;
     height: 36px;
-    border-bottom: solid 2px var(--color-secondary);
+    border-bottom: solid 2px var(--color-primary);
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -82,10 +82,16 @@
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-family: var(--font-tertiary);
     cursor: text;
     transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 500px) {
+    .form-row .col.x-50 {
+        width: 100%;
+    }
 }
  
 

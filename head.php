@@ -30,11 +30,13 @@
     <link rel="stylesheet" href="/assets/css/animations.css">
     <link rel="stylesheet" href="/assets/css/calendar.css">
     <link rel="stylesheet" href="/assets/css/form.css">
+    <link rel="stylesheet" href="/assets/css/appointment.css">
     <script src="/assets/js/main.js" defer></script>
     <script src="/assets/js/gallery.js" defer></script>
     <script src="/assets/js/animations.js" defer></script>
     <script src="/assets/js/calendar.js" defer></script>
     <script src="/assets/js/form.js" defer></script>
+    <script src="/assets/js/appointment.js" defer></script>
 
 </head>
 

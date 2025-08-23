@@ -34,6 +34,10 @@ $pages = [
         'title' => 'Studio Monaco - boek nu jouw afsrpaak',
         'meta_description' => '',
     ],
+    'test' => [
+        'title' => 'Studio Monaco - test',
+        'meta_description' => '',
+    ],
     // You can add more pages here easily
 ];
 

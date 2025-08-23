@@ -1,0 +1,28 @@
+.section.appointment {
+    min-height: 100vh; padding: 150px 0;
+}
+
+.appointment-form-page {
+  display: none;
+  height: 0;             
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+
+.appointment-form-page.active {
+  display: block; 
+  height: auto;
+  opacity: 1;
+}
+
+.appointment-form-page.fade-out {
+  opacity: 0;
+}
+
+.selects .select.active {
+    background-color: var(--color-primary);
+}
+
+.appointment-form-page .horizontal-wrapper {
+    flex: 100% 1 1; text-align: center; justify-content: center; align-items: center;
+}

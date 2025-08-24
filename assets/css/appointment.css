@@ -1,5 +1,18 @@
+/* ================================== *//* ================================== */
+/*         APPOINTMENTS.CSS           *//* ================================== */
+/*                                    *//* ================================== */
+/* ================================== *//* ================================== */
+
+
+
+/* ================================== */
+/* == Appointment pages styling ===== */
+/* ================================== */
+
+
+/* Multi step form  */
 .section.appointment {
-    min-height: 100vh; padding: 150px 0;
+  min-height: 100vh; padding: 150px 0;
 }
 
 .appointment-form-page {
@@ -19,10 +32,111 @@
   opacity: 0;
 }
 
+.appointment-form-page .selects .highlight.select {
+  cursor: pointer;
+  border: solid 4px var(--color-primary);
+  border-radius: 0.5rem;
+  flex: unset;
+  padding: 0.75rem 1.5rem;
+  min-width: 225px;
+}
+
+.appointment-form-page .selects .highlight.select .tiny-img-mask {
+  width: 60px; height: 60px;
+}
+
+.appointment-form-page .selects .highlight.select .vertical-wrapper {
+  margin-left: 0.5rem;
+}
+
 .selects .select.active {
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
 }
 
 .appointment-form-page .horizontal-wrapper {
-    flex: 100% 1 1; text-align: center; justify-content: center; align-items: center;
+  flex: 100% 1 1; text-align: center; justify-content: center; align-items: center;
+}
+
+
+/* Multi step calendar page */
+
+.appointment-form-page .calendar .days {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  overflow: hidden;                 
+  cursor: grab;   
+  touch-action: pan-y pinch-zoom;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .appointment-form-page .calendar .days {
+    overflow-x: auto;                 
+    -webkit-overflow-scrolling: touch;
+    cursor: auto;                     
+    touch-action: pan-x pan-y pinch-zoom;
+  }
+}
+
+.appointment-form-page .calendar .days.dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.appointment-form-page .calendar .days::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+}
+
+.appointment-form-page .calendar .days .day {
+  min-width: 76px;                  
+  inline-size: 76px;                
+  padding: 10px 8px;
+  border: 1px solid rgba(var(--color-primary-raw), 0.25);
+  color: var(--color-primary);
+  background: var(--color-dark);
+  display: grid;
+  place-items: center;
+  gap: 4px;
+  text-align: center;
+  scroll-snap-align: center;       
+}
+
+@media (max-width: 500px) {
+  .appointment-form-page .calendar .days .day {
+        height: auto;
+        font-size: 0.8rem;
+    }
+}
+
+.day .dow {
+  font-size: .8rem;
+  text-transform: lowercase;
+  opacity: .9;
+}
+
+.day .num {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.appointment-form-page .calendar .days .day:not(.prev-date, .next-date):hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-color: transparent;
+}
+
+.appointment-form-page .calendar .days .active {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-color: transparent;
+}
+
+.appointment-form-page .calendar .days .today {
+  box-shadow: 0 0 0 2px rgba(var(--color-primary-raw), .35) inset;
 }

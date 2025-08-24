@@ -771,7 +771,7 @@ img, svg, picture {
    width: 80px; height: 80px;
    overflow: hidden;
    border-radius: 50%;
-   border: solid 1px var(--color-primary);
+   border: solid 2px var(--color-primary);
    flex-shrink: 0;
 }
 
@@ -1002,7 +1002,7 @@ img, svg, picture {
    padding-top: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 777px) {
    .footer .logo {
       margin: auto;
    }
@@ -1017,6 +1017,10 @@ img, svg, picture {
 
    .footer .super-spacial-horizontal-wrapper:has(> ul:nth-of-type(2)):not(:has(> ul:nth-of-type(3))) > ul {
       text-align: left;
+   }
+
+   .footer .btn {
+      align-self: center;
    }
 }
 

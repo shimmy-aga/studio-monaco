@@ -6,12 +6,10 @@
 // FORM ///////////////////////////////////////////////
 ///////////////////////////////////////////////////////
 render_section('appointment', [
-    // Step 1: Date & Lady
     'month_label'     => 'augustus 2025',
-    'intro_date_lady' => 'Kies onderstaand een dame uit op een van de beschikbare dagen.',
+    'intro_date_lady' => 'Kies eerst een datum en selecteer vervolgens de dame van je voorkeur.',
     'ladies_title'    => 'Beschikbare dames op deze dag',
 
-    // Ladies (name + image)
     'ladies' => [
         ['name' => 'Alysia', 'img' => 'assets/media/alysia.jpg'],
         ['name' => 'Anita',  'img' => 'assets/media/anita.jpg'],
@@ -19,9 +17,8 @@ render_section('appointment', [
         ['name' => 'Mandy',  'img' => 'assets/media/mandy.jpg'],
     ],
 
-    // Step 2: Timeslots
-    'timeslot_title'  => 'Tijdslot & Duur',
-    'timeslot_intro'  => 'Kies als laatst nog een tijdslot',
+    'timeslot_title'  => 'Tijd & duur',
+    'timeslot_intro'  => 'Kies een beschikbaar tijdslot en de gewenste duur.',
     'timeslots'       => [
         ['time' => '11:30-12:00', 'duration' => '30 minuten'],
         ['time' => '12:30-13:00', 'duration' => '30 minuten'],
@@ -36,9 +33,8 @@ render_section('appointment', [
         ['time' => '12:00-13:30', 'duration' => '90 minuten'],
     ],
 
-    // Step 3: Form copy
-    'form_title' => 'Indienen',
-    'form_intro' => 'Wij sturen je een bevestiging van de afspraak per mail',
+    'form_title' => 'Jouw gegevens',
+    'form_intro' => 'Na het verzenden ontvang je direct een bevestiging per e-mail. Je gegevens blijven strikt vertrouwelijk.',
 ]);
 
 

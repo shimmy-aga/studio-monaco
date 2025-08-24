@@ -6,8 +6,8 @@
 // HERO ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 render_section('hero', [
-    'title'    => 'WELKOM BIJ STUDIO MONACO',
-    'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.',
+    'title'    => 'Welkom bij Studio Monaco',
+    'subtitle' => 'Bij Studio Monaco ontdek je meer dan alleen service. Het is een plek waar discretie, elegantie en op maat gemaakte beleving samenkomen.',
     'bg_img'   => 'assets/media/placeholder-4.jpg',
     'bg_img_alt' => 'Studio Monaco sfeerbeeld',
     'cards'    => [
@@ -56,15 +56,15 @@ render_section('hero', [
 render_section('highlights', [
     'title'    => 'Belevenissen',
     'items'    => [
-        ['img' => 'assets/media/placeholder-1.jpg', 'headline' => 'Girlfriend Fantasy', 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-2.jpg', 'headline' => 'BDSM-ervaring',      'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-3.jpg', 'headline' => 'Rollenspel',          'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-4.jpg', 'headline' => 'Sensory Play',        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-5.webp','headline' => 'Erotische Massage',   'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-6.avif','headline' => 'Kinky Workshops',     'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-7.webp','headline' => 'Groepservaringen',    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-8.jpg', 'headline' => 'Striptease Show',     'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
-        ['img' => 'assets/media/placeholder-9.jpg', 'headline' => 'Fantasy Rooms',       'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing'],
+        ['img' => 'assets/media/placeholder-1.jpg', 'headline' => 'Girlfriend Fantasy', 'description' => 'Beleef de warmte en aandacht van een persoonlijke vriendin.'],
+        ['img' => 'assets/media/placeholder-2.jpg', 'headline' => 'BDSM-ervaring',      'description' => 'Vertrouw, leid en laat je leiden in gecontroleerde spanning.'],
+        ['img' => 'assets/media/placeholder-3.jpg', 'headline' => 'Rollenspel',          'description' => 'Stap in een andere rol en laat je fantasie leiden.'],
+        ['img' => 'assets/media/placeholder-4.jpg', 'headline' => 'Sensory Play',        'description' => 'Ontspan met subtiele sensaties die al je zintuigen prikkelen.'],
+        ['img' => 'assets/media/placeholder-5.webp','headline' => 'Erotische Massage',   'description' => 'Laad je op met een massage die lichaam en geest verwarmt.'],
+        ['img' => 'assets/media/placeholder-6.avif','headline' => 'Kinky Workshops',     'description' => 'Ontdek en leer samen nieuwe kanten van erotiek.'],
+        ['img' => 'assets/media/placeholder-7.webp','headline' => 'Groepservaringen',    'description' => 'Deel intieme momenten met anderen in vertrouwen.'],
+        ['img' => 'assets/media/placeholder-8.jpg', 'headline' => 'Striptease Show',     'description' => 'Laat je verleiden door een gracieuze en sensuele show.'],
+        ['img' => 'assets/media/placeholder-9.jpg', 'headline' => 'Fantasy Rooms',       'description' => 'Duik in diverse themawerelden die jouw verbeelding tot leven brengen.'],
     ],
     'cta_text' => 'Boek nu',
     'cta_href' => 'boek-nu',
@@ -75,7 +75,7 @@ render_section('highlights', [
 ////////////////////////////////////////////////////////////////
 render_section('slides', [
     'title'    => 'Neem een kijkje in onze wereld van passie',
-    'subtitle' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.",
+    'subtitle' => "Of je nu komt voor een korte ontsnapping of een uitgebreide sessie: je bent in goede handen.",
     'images'   => [
         ['src' => 'assets/media/placeholder-3.jpg', 'alt' => 'Slide 1'],
         ['src' => 'assets/media/placeholder-6.avif', 'alt' => 'Slide 2'],
@@ -94,7 +94,7 @@ render_section('banner', [
     'second_img_src' => 'assets/media/placeholder-8.jpg',
     'second_img_alt' => '',
     'title'          => 'Studio Monaco',
-    'subtitle'       => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.",
+    'subtitle'       => "Al meer dan een decennium creëren we bijzondere, persoonlijke ervaringen. Met een professioneel team, hoge hygiënenormen en maximale discretie zorgen we dat jij je welkom en ontspannen voelt — iedere keer weer.",
     'cta_text'       => 'Lees meer',
     'cta_href'       => 'contact',
     'usps'           => [

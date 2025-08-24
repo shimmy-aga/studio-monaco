@@ -18,7 +18,7 @@ render_section('split', [
     'person' => [
         'label'        => 'DAME',
         'name'         => 'MANDY',
-        'about'        => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo.',
+        'about'        => 'Mandy is spontaan, stijlvol en vol energie. Ze zorgt voor een warme sfeer en weet elke ontmoeting bijzonder te maken.',
         'looks'        => [
             ['label' => 'Leeftijd',  'value' => '26'],
             ['label' => 'Cupmaat',   'value' => 'C'],

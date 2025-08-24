@@ -11,8 +11,8 @@ render_section('hero');
 // SINGLE /////////////////////////////////////////////
 ///////////////////////////////////////////////////////
 render_section('single', [
-    'title' => 'AGENDA',
-    'intro' => "Hieronder zie je een overzicht van de beschikbaarheid.",
+    'title' => 'Beschikbaarheid',
+    'intro' => "Check snel wie wanneer beschikbaar is en plan je perfecte moment. Of je nu op zoek bent naar rust, spanning of avontuur — jouw ideale ervaring wacht op jou",
 ]);
 
 
@@ -34,8 +34,8 @@ render_section('banner', [
     'first_img_alt'  => '',
     'second_img_src' => 'assets/media/placeholder-8.jpg',
     'second_img_alt' => '',
-    'title'          => 'Studio Monaco',
-    'subtitle'       => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.",
+    'title'          => 'Klaar om te plannen?',
+    'subtitle'       => "Kies je moment en boek nu — snel, discreet en eenvoudig.",
     'cta_text'       => 'Boek nu',
     'cta_href'       => 'boek-nu',
     'usps'           => [
@@ -43,7 +43,7 @@ render_section('banner', [
         ['value' => '17',    'label' => 'Dames'],
         ['value' => '20',    'label' => 'Kamers'],
         ['value' => '3,450+','label' => 'Tevreden klanten'],
-    ]
+    ],
 ])
 
 

@@ -11,8 +11,8 @@ render_section('hero');
 // CARDS/GALLERY //////////////////////////////////////
 ///////////////////////////////////////////////////////
 render_section('cards', [
-    'title' => 'OVERZICHT VAN ONZE DAMES',
-    'subtitle' => 'Hieronder zie je een overzicht van onze dames en welke op het moment beschikbaar zijn',
+    'title' => 'Ontmoet onze dames',
+    'subtitle' => 'Elke vrouw bij Studio Monaco heeft haar eigen stijl en energie. Van zacht en romantisch tot speels en gedurfd: blader door de profielen, bekijk voorkeuren en beschikbaarheid, en kies wie het beste bij jou past.',
     'cards'    => [
         [
             'name'           => 'Alysia',
@@ -169,8 +169,8 @@ render_section('banner', [
     'first_img_alt'  => '',
     'second_img_src' => 'assets/media/placeholder-8.jpg',
     'second_img_alt' => '',
-    'title'          => 'Studio Monaco',
-    'subtitle'       => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros leo. Duis luctus eget ligula eget interdum. Suspendisse vitae tortor interdum.",
+    'title'          => 'Gevonden wie je zoekt?',
+    'subtitle'       => "Plan je afspraak in de agenda en ontvang meteen een bevestiging.",
     'cta_text'       => 'Boek nu',
     'cta_href'       => 'boek-nu',
     'usps'           => [

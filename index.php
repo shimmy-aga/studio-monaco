@@ -31,11 +31,7 @@ $pages = [
         'meta_description' => '',
     ],
     'boek-nu' => [
-        'title' => 'Studio Monaco - boek nu jouw afsrpaak',
-        'meta_description' => '',
-    ],
-    'test' => [
-        'title' => 'Studio Monaco - test',
+        'title' => 'Studio Monaco - boek nu jouw afspraak',
         'meta_description' => '',
     ],
     // You can add more pages here easily

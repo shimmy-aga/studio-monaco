@@ -42,7 +42,7 @@ if (empty($usps)) {
         </div>
 
         <div data-animate class="inner text-left mt-0">
-            <h1 class="title-small font-weight-900"><?= htmlspecialchars($title) ?></h1>
+            <h1 class="title-small primary-font font-weight-900"><?= htmlspecialchars($title) ?></h1>
             <p class="text-medium secondary-font mt-10"><?= nl2br(htmlspecialchars($subtitle)) ?></p>
 
             <div data-animate class="spacial-horizontal-wrapper mt-25 secondary-font">

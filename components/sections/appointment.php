@@ -37,7 +37,7 @@ $timeslots = $timeslots ?? [
 ];
 ?>
 
-<section class="section appointment boxes tertiary-font">
+<section class="section appointment boxes primary-font">
 
     <div id="date-and-girl" class="appointment-form-page container flexbox">
         <div class="single mt-25">
@@ -101,7 +101,7 @@ $timeslots = $timeslots ?? [
 
     <form class="contact-form form-row appointment-form-page container flexbox">
         <div class="single mt-25">
-            <h1 class="title-medium"><?= htmlspecialchars($form_title) ?></h1>
+            <h1 class="title-medium primary-font"><?= htmlspecialchars($form_title) ?></h1>
             <p class="text-big secondary-font max-width-600"><?= htmlspecialchars($form_intro) ?></p>
         </div>
 

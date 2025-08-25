@@ -25,14 +25,14 @@ $contact_items = $contact_items ?? [
   <div class="container flexbox text-center">
 
     <div class="column wide text-left">
-      <h1 class="title-medium tertiary-font"><?= htmlspecialchars($about_title) ?></h1>
+      <h1 class="title-medium primary-font"><?= htmlspecialchars($about_title) ?></h1>
       <p class="text-medium secondary-font">
         <?= nl2br(htmlspecialchars($about_text)) ?>
       </p>
     </div>
 
     <div class="column wide text-left">
-      <h1 class="title-medium tertiary-font"><?= htmlspecialchars($contact_title) ?></h1>
+      <h1 class="title-medium primary-font"><?= htmlspecialchars($contact_title) ?></h1>
       <div class="super-spacial-horizontal-wrapper">
         <ul class="text-medium secondary-font vertical-wrapper">
           <?php foreach ($contact_items as $item):

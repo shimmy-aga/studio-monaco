@@ -11,7 +11,7 @@
             <div class="logo">
                 <img decoding="async" loading="lazy" src="assets/media/logo.png" alt="logo">
             </div>
-            <h1 class="title-small font-weight-600">Studio Monaco</h1>
+            <h1 class="title-small primary-font font-weight-600">Studio Monaco</h1>
             <div class="payment-methods">
                 <i class="fa-brands fa-cc-visa"></i>
                 <i class="fa-brands fa-cc-mastercard">
@@ -26,7 +26,7 @@
 
         <div data-animate class="column small">
             
-            <h1 class="title-small secondary-font font-weight-600">contact & info</h1>
+            <h1 class="title-small primary-font font-weight-600">contact & info</h1>
             <div class="super-spacial-horizontal-wrapper">
                 <ul class="text-medium secondary-font vertical-wrapper">
                     <li>Langs de werf 6</li>
@@ -41,7 +41,7 @@
 
         <div data-animate class="column small">
             
-            <h1 class="title-small secondary-font font-weight-600">links</h1>
+            <h1 class="title-small primary-font font-weight-600">links</h1>
             <div class="super-spacial-horizontal-wrapper">
                 <ul class="text-medium secondary-font vertical-wrapper">
                     <li><a href="/" class="footer-link">Home</a></li>
@@ -56,7 +56,7 @@
 
         <div data-animate class="column small">
 
-            <h1 class="title-small secondary-font font-weight-600">tarieven</h1>
+            <h1 class="title-small primary-font font-weight-600">tarieven</h1>
             <div class="super-spacial-horizontal-wrapper">
                 <ul class="text-medium secondary-font vertical-wrapper">
                     <li>30 minuten</li>
@@ -77,7 +77,7 @@
 
         <div data-animate class="column small">
 
-            <h1 class="title-small secondary-font font-weight-600">openingstijden</h1>
+            <h1 class="title-small primary-font font-weight-600">openingstijden</h1>
             <div class="super-spacial-horizontal-wrapper">
                 <ul class="text-medium secondary-font vertical-wrapper">
                     <li>maandag</li>

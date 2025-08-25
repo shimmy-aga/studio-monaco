@@ -23,7 +23,7 @@ $fields = $fields ?? [
 <section class="section contact-form">
   <div class="container">
 
-    <h1 class="form-title title-medium" data-animate><?= htmlspecialchars($title) ?></h1>
+    <h1 class="form-title title-medium primary-font" data-animate><?= htmlspecialchars($title) ?></h1>
 
     <form class="<?= htmlspecialchars($form_class) ?>"
           action="<?= htmlspecialchars($form_action) ?>"

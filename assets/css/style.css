@@ -67,7 +67,7 @@
 }
 
 ::selection {
-  background: rgba(var(--color-primary-raw), 0.85); /* highlight background color */
+  background: rgba(var(--color-primary-raw), 0.85);
 }
 
 ::-moz-selection {
@@ -903,7 +903,6 @@ img, svg, picture {
       position: relative;
       top: unset; left: unset;
       margin: 1rem;
-      margin-bottom: -50px;
    }
 }
 

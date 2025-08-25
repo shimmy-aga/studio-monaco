@@ -66,7 +66,7 @@ $fields = $fields ?? [
       <?php endforeach; ?>
 
       <div class="form-field col x-100 text-center">
-        <button class="btn btn-secondary" type="submit"><?= htmlspecialchars($submit_text) ?></button>
+        <button class="btn btn-primary" type="submit"><?= htmlspecialchars($submit_text) ?></button>
       </div>
 
     </form>
@@ -101,7 +101,7 @@ $fields = $fields ?? [
             </div>
 
             <div class="form-field col x-100 text-center">
-                <input class="btn btn-secondary" type="submit" value="Submit">
+                <input class="btn btn-primary" type="submit" value="Submit">
             </div>
 
         </form>

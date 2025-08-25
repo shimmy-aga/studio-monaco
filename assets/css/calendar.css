@@ -132,7 +132,7 @@
 
 .calendar .days .day:not(.prev-date, .next-date):hover {
     color: var(--color-light);
-    background-color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .calendar .days .prev-date,

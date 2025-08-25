@@ -66,6 +66,14 @@
 	text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background: rgba(var(--color-primary-raw), 0.85); /* highlight background color */
+}
+
+::-moz-selection {
+  background: rgba(var(--color-primary-raw), 0.85);
+}
+
 html {
    font-size: 100%;
 	box-sizing: inherit;

@@ -175,8 +175,8 @@ render_section('banner', [
     'cta_href'       => 'boek-nu',
     'usps'           => [
         ['value' => '12+',   'label' => 'Jaar actief'],
-        ['value' => '17',    'label' => 'Dames'],
-        ['value' => '20',    'label' => 'Kamers'],
+        ['value' => '20',    'label' => 'Dames'],
+        ['value' => '6',    'label' => 'Kamers'],
         ['value' => '3,450+','label' => 'Tevreden klanten'],
     ]
 ])

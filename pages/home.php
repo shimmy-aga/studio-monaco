@@ -7,9 +7,9 @@
 ////////////////////////////////////////////////////////////////
 render_section('hero', [
     'title'    => 'Welkom bij Studio Monaco',
-    'subtitle' => 'Bij Studio Monaco ontdek je meer dan alleen service. Het is een plek waar discretie, elegantie en op maat gemaakte beleving samenkomen.',
+    'subtitle' => 'Ontdek dé plek voor een verfijnde erotische massage in een discrete, elegante setting. Bij Studio Monaco draait alles om aandacht, ontspanning en een beleving op maat.',
     'bg_img'   => 'assets/media/placeholder-4.jpg',
-    'bg_img_alt' => 'Studio Monaco sfeerbeeld',
+    'bg_img_alt' => 'Studio Monaco massagesalon',
     'cards'    => [
         [
             'name'           => 'Alysia',
@@ -54,17 +54,17 @@ render_section('hero', [
 // HIGHLIGHTS //////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 render_section('highlights', [
-    'title'    => 'Belevenissen',
+    'title'    => 'Erotische Massage & Belevenissen',
     'items'    => [
-        ['img' => 'assets/media/placeholder-1.jpg', 'headline' => 'Girlfriend Fantasy', 'description' => 'Beleef de warmte en aandacht van een persoonlijke vriendin.'],
-        ['img' => 'assets/media/placeholder-2.jpg', 'headline' => 'BDSM-ervaring',      'description' => 'Vertrouw, leid en laat je leiden in gecontroleerde spanning.'],
-        ['img' => 'assets/media/placeholder-3.jpg', 'headline' => 'Rollenspel',          'description' => 'Stap in een andere rol en laat je fantasie leiden.'],
-        ['img' => 'assets/media/placeholder-4.jpg', 'headline' => 'Sensory Play',        'description' => 'Ontspan met subtiele sensaties die al je zintuigen prikkelen.'],
-        ['img' => 'assets/media/placeholder-5.webp','headline' => 'Erotische Massage',   'description' => 'Laad je op met een massage die lichaam en geest verwarmt.'],
-        ['img' => 'assets/media/placeholder-6.avif','headline' => 'Kinky Workshops',     'description' => 'Ontdek en leer samen nieuwe kanten van erotiek.'],
-        ['img' => 'assets/media/placeholder-7.webp','headline' => 'Groepservaringen',    'description' => 'Deel intieme momenten met anderen in vertrouwen.'],
-        ['img' => 'assets/media/placeholder-8.jpg', 'headline' => 'Striptease Show',     'description' => 'Laat je verleiden door een gracieuze en sensuele show.'],
-        ['img' => 'assets/media/placeholder-9.jpg', 'headline' => 'Fantasy Rooms',       'description' => 'Duik in diverse themawerelden die jouw verbeelding tot leven brengen.'],
+        ['img' => 'assets/media/placeholder-5.webp','headline' => 'Erotische Massage',   'description' => 'Verwarm lichaam en geest met een aandachtige, intuïtieve massage vol zachte sensaties en rust.'],
+        ['img' => 'assets/media/placeholder-1.jpg', 'headline' => 'Sensuele Duo-Massage','description' => 'Dubbele aandacht van twee masseuses voor een extra rijke, ontspannen beleving.'],
+        ['img' => 'assets/media/placeholder-2.jpg', 'headline' => 'BDSM-beleving (licht)', 'description' => 'Kies voor gecontroleerde spanning en vertrouwen, afgestemd op jouw grenzen.'],
+        ['img' => 'assets/media/placeholder-3.jpg', 'headline' => 'Rollenspel',          'description' => 'Stap in een fantasierol en laat je meenemen in een veilige, discrete setting.'],
+        ['img' => 'assets/media/placeholder-4.jpg', 'headline' => 'Sensory Play',        'description' => 'Fluweelzachte aanrakingen, temperatuurspel en subtiele prikkels voor alle zintuigen.'],
+        ['img' => 'assets/media/placeholder-6.avif','headline' => 'Kinky Workshops',     'description' => 'Leer speels en respectvol nieuwe technieken en voorkeuren ontdekken.'],
+        ['img' => 'assets/media/placeholder-7.webp','headline' => 'Groepservaringen',    'description' => 'Deel een discrete, sensuele massage-ervaring met anderen.'],
+        ['img' => 'assets/media/placeholder-8.jpg', 'headline' => 'Striptease Show',     'description' => 'Combineer een elegante show met een ontspannende massage-sessie.'],
+        ['img' => 'assets/media/placeholder-9.jpg', 'headline' => 'Fantasy Rooms',       'description' => 'Themakamers waarin jouw massagebeleving tot leven komt.'],
     ],
     'cta_text' => 'Boek nu',
     'cta_href' => 'boek-nu',
@@ -75,7 +75,7 @@ render_section('highlights', [
 ////////////////////////////////////////////////////////////////
 render_section('slides', [
     'title'    => 'Neem een kijkje in onze wereld van passie',
-    'subtitle' => "Of je nu komt voor een korte ontsnapping of een uitgebreide sessie: je bent in goede handen.",
+    'subtitle' => "Voor een korte ontsnapping of uitgebreide sessie — onze masseuses zorgen voor pure ontspanning met een sensuele touch.",
     'images'   => [
         ['src' => 'assets/media/placeholder-3.jpg', 'alt' => 'Slide 1'],
         ['src' => 'assets/media/placeholder-6.avif', 'alt' => 'Slide 2'],
@@ -94,13 +94,13 @@ render_section('banner', [
     'second_img_src' => 'assets/media/placeholder-8.jpg',
     'second_img_alt' => '',
     'title'          => 'Studio Monaco',
-    'subtitle'       => "Al meer dan een decennium creëren we bijzondere, persoonlijke ervaringen. Met een professioneel team, hoge hygiënenormen en maximale discretie zorgen we dat jij je welkom en ontspannen voelt — iedere keer weer.",
+    'subtitle'       => "Al meer dan een decennium creëren we persoonlijke massage-ervaringen met maximale discretie en hoge hygiënenormen. Een professioneel team van masseuses ontvangt je warm, zodat jij je iedere keer welkom en ontspannen voelt.",
     'cta_text'       => 'Lees meer',
     'cta_href'       => 'contact',
     'usps'           => [
         ['value' => '12+',   'label' => 'Jaar actief'],
-        ['value' => '17',    'label' => 'Dames'],
-        ['value' => '20',    'label' => 'Kamers'],
+        ['value' => '20',    'label' => 'Dames'],
+        ['value' => '6',    'label' => 'Kamers'],
         ['value' => '3,450+','label' => 'Tevreden klanten'],
     ],
 ]);

@@ -9,11 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
 // Navigating form pages /////////////////////////////
 //////////////////////////////////////////////////////
 
-
 const pages = document.querySelectorAll(".appointment-form-page");
 const nextButtons = document.querySelectorAll(".btn.btn-primary.forward");
 const backButtons = document.querySelectorAll(".btn.btn-primary.back");
 let currentIndex = 0;
+
+if (pages.length === 0) return;
 
 pages[currentIndex].classList.add("active");
 

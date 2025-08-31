@@ -7,7 +7,9 @@
 let currentIndex = 0;
 const images = document.querySelectorAll('.gallery img');
 const totalImages = images.length;
+const lightboxEl = document.getElementById('lightbox'); // <— explicit element
 
+if (totalImages > 0 && lightboxEl) {
 
 // Open the lightbox /////////////////////////////////
 //////////////////////////////////////////////////////
@@ -29,8 +31,8 @@ function closeLightbox() {
     document.body.classList.remove('no-scroll')
 }
 
-lightbox.addEventListener('click', (ev) => {
-    if (ev.target === lightbox) closeLightbox();
+lightboxEl.addEventListener('click', (ev) => {
+    if (ev.target === lightboxEl) closeLightbox();
 });
 
 
@@ -97,6 +99,7 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
+}
 
 
 
